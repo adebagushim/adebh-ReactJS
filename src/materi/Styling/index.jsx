@@ -1,12 +1,14 @@
 import React from "react";
-import Bootstrap from "./Bootstrap";
+import Isi from "./Tugas/Isi";
+import NavbarTugas from "./Tugas/NavbarTugas";
 
 export default class Styling extends React.Component {
 
     render() {
         return (
             <div>
-                <Bootstrap />
+                <NavbarTugas />
+                <Isi />
             </div>
         )
     }
