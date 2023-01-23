@@ -37,15 +37,17 @@ export default class ValidationTgs extends React.Component {
         let validation = new Validator(data, rules);
         validation.passes();
 
-        alert(`
-        Nama: ${this.state.nama}
-        Jurusan: ${this.state.jurusan}
-        Gender: ${this.state.gender}
-        Alamat: ${this.state.alamat}
-        Email: ${this.state.email}
-        Password: ${this.state.password}
-        Member: ${this.state.member ? 'YES' : 'NO'}
-        `)
+        if(validation.errorCount===0) {
+            alert(`
+                Nama: ${this.state.nama}
+                Jurusan: ${this.state.jurusan}
+                Gender: ${this.state.gender}
+                Alamat: ${this.state.alamat}
+                Email: ${this.state.email}
+                Password: ${this.state.password}
+                Member: ${this.state.member ? 'YES' : 'NO'}
+                `)
+        }
         
         this.setState({
             nama: '',
