@@ -1,9 +1,9 @@
-import ValidationTgs from "./materi/Forn/Tugas";
+import Styling from "./materi/Styling";
 
 function App() {
   return (
     <div className="App">
-      <ValidationTgs />
+      <Styling />
     </div>
   );
 }
