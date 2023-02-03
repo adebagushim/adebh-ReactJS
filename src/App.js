@@ -1,9 +1,9 @@
-import Styling from "./materi/Styling";
+import Lifecycle from "./materi/Lifecycle";
 
 function App() {
   return (
     <div className="App">
-      <Styling />
+      <Lifecycle />
     </div>
   );
 }

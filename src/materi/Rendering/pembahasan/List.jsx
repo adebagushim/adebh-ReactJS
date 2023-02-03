@@ -9,7 +9,8 @@ export default class List extends React.Component {
             <div>
                 <ul>
                     {
-                        this.state.users.map((user, i) => <li key={i}>{user}</li> )
+                        this.state.users.map((user, i) => 
+                        <li key={i}>{user}</li> )
                     }
                 </ul>
             </div>
