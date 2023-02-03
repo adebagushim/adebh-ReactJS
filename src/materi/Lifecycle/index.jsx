@@ -33,7 +33,6 @@ export default class Lifecycle extends React.Component {
                         return value.title?.toLowerCase().includes(this.state.cari.toLocaleLowerCase()) || value.description?.toLowerCase().includes(this.state.cari.toLocaleLowerCase()) || value.source.name?.toLowerCase().includes(this.state.cari.toLocaleLowerCase())
                         }).map((user) => 
                     <Col md={4} className="content" key={user.publishedAt}>
-                        {console.log(user)}
                         <div className="judul" >{user.title}</div>
                         <div className="gbr" >
                             <img src={user.urlToImage} alt="" />
