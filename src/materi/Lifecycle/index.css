@@ -7,7 +7,7 @@ input {
 }
 
 .isi {
-    margin: 10px 0px;
+    padding: 10px 10px;
 }
 
 .content {
@@ -32,7 +32,7 @@ input {
 }
 
 .berita {
-    height: 90px;
+    height: 80px;
     text-align: justify;
     overflow: hidden;
     text-overflow: ellipsis;
