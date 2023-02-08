@@ -1,0 +1,59 @@
+h1 {
+    text-shadow: 1px 1px 2px;
+}
+
+input {
+    box-shadow: 3px 3px 3px;
+}
+
+.isi {
+    padding: 10px 10px;
+}
+
+.content {
+    border: 1px;
+    border-style: solid;
+    border-color: whitesmoke;
+    background-color: whitesmoke;
+    height: 300px;
+    box-shadow: 5px 5px 10px lightblue;
+}
+
+.judul {
+    height: 50px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+    background-color: aquamarine;
+}
+
+.gbr {
+    text-align: center;
+}
+
+.berita {
+    height: 80px;
+    text-align: justify;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 8px;
+    margin-bottom: 4px;
+}
+
+.gbr img{
+    padding: 0px 8px;
+    width: 200px;
+    height: 100px;
+    margin: 5px;
+}
+
+.sumber {
+    padding: 0px 8px;
+    height: 24px;
+    overflow: hidden;
+    text-overflow: clip;
+    top: 0;
+    bottom: 0;
+    text-align: right;
+    background-color: burlywood;
+}
